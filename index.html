@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="position-relative text-center bg-image header-section">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1 class="display-1 text-white">Car Detail</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#sectionRegistrate">Registrate</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#sectionProductos">Productos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#seccionServicio">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#ContenedorFooter">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Registro Section -->
+    <section id="sectionRegistrate" class="text-center py-5 bg-light">
+        <h2 class="section-title">Registrate</h2>
+        <div class="container">
+            <form class="form-registro">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="usuario" class="form-label">Usuario</label>
+                        <input type="text" class="form-control" id="usuario">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="fecha" class="form-label">Fecha de Registro</label>
+                        <input type="datetime-local" class="form-control" id="fecha">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="contraseña" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="contraseña">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="telefono" class="form-label">Número de Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="fechanac" class="form-label">Fecha de Nacimiento</label>
+                        <input type="date" class="form-control" id="fechanac">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Productos Section -->
+    <section id="sectionProductos" class="text-center py-5 bg-image bg-products">
+        <h2 class="section-title">Productos</h2>
+        <div class="container d-flex flex-wrap justify-content-between">
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/waxproduct.jpg" class="card-img-top" alt="WAX TOXIC SHINE">
+                <div class="card-body">
+                    <h5 class="card-title">WAX TOXIC SHINE</h5>
+                    <p class="text-muted text-decoration-line-through">$6.650</p>
+                    <p class="text-primary">$5.950</p>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/remover.jpg" class="card-img-top" alt="REMOVER TOXIC SHINE">
+                <div class="card-body">
+                    <h5 class="card-title">REMOVER TOXIC SHINE</h5>
+                    <p class="text-muted text-decoration-line-through">$6.650</p>
+                    <p class="text-primary">$5.950</p>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/ceraneumatico.jpg" class="card-img-top" alt="Cera de Neumaticos">
+                <div class="card-body">
+                    <h5 class="card-title">Cera de Neumaticos</h5>
+                    <p class="text-muted text-decoration-line-through">$6.650</p>
+                    <p class="text-primary">$5.950</p>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/cepilloInterior.jpg" class="card-img-top" alt="Cepillo de Interiores">
+                <div class="card-body">
+                    <h5 class="card-title">Cepillo de Interiores</h5>
+                    <p class="text-muted text-decoration-line-through">$6.650</p>
+                    <p class="text-primary">$5.950</p>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/esponjaMicroFibra.jpg" class="card-img-top" alt="Microfibra">
+                <div class="card-body">
+                    <h5 class="card-title">MICROFIBRA</h5>
+                    <p class="text-muted text-decoration-line-through">$6.650</p>
+                    <p class="text-primary">$5.950</p>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/aceiteYPF.jpg" class="card-img-top" alt="aceiteYPF">
+                <div class="card-body">
+                    <h5 class="card-title">Aceite YPF</h5>
+                    <p class="text-muted text-decoration-line-through">$6.650</p>
+                    <p class="text-primary">$5.950</p>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/pulidora.jpg" class="card-img-top" alt="pulidora">
+                <div class="card-body">
+                    <h5 class="card-title">Pulidora</h5>
+                    <p class="text-muted text-decoration-line-through">$6.650</p>
+                    <p class="text-primary">$5.950</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="seccionServicio" class="text-center py-5 bg-image bg-services">
+        <h2 class="section-title">Servicios</h2>
+        <div class="container d-flex flex-wrap justify-content-around">
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/washingMyBM.jpg" class="card-img-top" alt="Lavado Premium">
+                <div class="card-body">
+                    <h5 class="card-title">Lavado Premium</h5>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/limpiezaDeMotor.jpg" class="card-img-top" alt="Limpieza de Motor">
+                <div class="card-body">
+                    <h5 class="card-title">Limpieza de Motor</h5>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/limpiezaDeInterior.jpg" class="card-img-top" alt="Limpieza de Interior">
+                <div class="card-body">
+                    <h5 class="card-title">Limpieza de Interior</h5>
+                </div>
+            </div>
+            <div class="card p-3 m-3" style="width: 18rem;">
+                <img src="./images/Pulido.jpg" class="card-img-top" alt="Pulido">
+                <div class="card-body">
+                    <h5 class="card-title">Pulido</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-4">
+        <section id="ContenedorFooter" class="container text-center">
+            <h2>Contacto</h2>
+            <a href="https://wa.me/543517524244?text=Hola" class="btn btn-success">Whatsapp</a>
+            <a href="https://www.linkedin.com/in/lautaroscuotri/" class="btn btn-primary">LinkedIn</a>
+        </section>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
